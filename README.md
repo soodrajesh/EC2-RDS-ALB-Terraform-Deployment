@@ -7,7 +7,7 @@ Terraform-Project-1
 #**Description**: 
 
 
-1. **Public-facing EC2 Instance:** A t3.medium sized EC2 instance that is publicly accessible on port 443. It is hosted on amazon Linux server and has 1 GP3  drive of 50GB attached. Using count varialbe we can deploy N number of instances or as per requirement. 
+1. **Public-facing EC2 Instance:** A t3.medium sized EC2 instance that is publicly accessible on port 443. It is hosted on amazon Linux server and has 1 GP3  drive of 50GB attached. Using count variable we can deploy N number of instances or as per requirement. 
 
 
 2. **Application Load Balancer (ALB) and Target Group:** The public-facing EC2 instance is part of a target group that is associated with an Application Load Balancer (ALB). This ALB is responsible for distributing traffic to the EC2 instances.
